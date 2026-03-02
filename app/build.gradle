@@ -51,9 +51,9 @@ android {
 
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
 
-        applicationId "com.umarbabur.tux"
+        applicationId "com.termux"
 
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.umarbabur.tux"
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.termux"
         manifestPlaceholders.TERMUX_APP_NAME = "Tux"
         manifestPlaceholders.TERMUX_API_APP_NAME = "Tux:API"
         manifestPlaceholders.TERMUX_BOOT_APP_NAME = "Tux:Boot"

@@ -1,11 +1,11 @@
-#!/data/data/com.umarbabur.tux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 # tux-setup.sh — First-run setup for Tux AI Terminal
 # Installs Claude Code, Codex, and Gemini CLIs
 
 set -e
 
 TUX_VERSION="0.1.0"
-PREFIX="/data/data/com.umarbabur.tux/files/usr"
+PREFIX="/data/data/com.termux/files/usr"
 
 # Colors
 RED='\033[0;31m'
